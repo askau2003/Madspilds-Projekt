@@ -1,0 +1,29 @@
+.logo {
+    width:225px;
+    height:250px;
+}
+
+.header-flexbox {
+    display: flex;
+    justify-content: space-between; /* horizontalt */
+    align-items: center;
+}
+
+.dropdown {
+    display: inline-block; /* Gør så knappen ikke går ud over knappen */
+}
+
+.dropdown a{
+    display: block; /* hyperlinks bliver til en block */
+    color: black; /* sort farve */
+    text-decoration: none; /* fjerner understreg fra <a> */
+}
+
+.dropdown .dropdown-indhold {
+    display: none; /* indholdet vises ikke */
+    position: absolute; /* så knapperne sidder fast */
+}
+
+.dropdown:hover .dropdown-indhold {
+    display: block; /* indholdet bliver vist når man hover */
+}
