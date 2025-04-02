@@ -22,5 +22,5 @@ button:hover {
 }
 
 button a:hover {
-    color:black !important; /* ændrer farven på teksten når man hover */
+    color: black !important; /* ændrer farven på teksten når man hover */
 }

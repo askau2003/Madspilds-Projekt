@@ -1,10 +1,10 @@
 .logo {
-    width:225px;
-    height:250px;
+    width: 225px;
+    height: 250px;
 }
 
 header {
-background-color: hsl(360 0% 95%)
+    background-color: hsl(360 0% 95%)
 }
 
 .header-flexbox {
@@ -17,7 +17,7 @@ background-color: hsl(360 0% 95%)
     display: inline-block; /* Gør så knappen ikke går ud over knappen */
 }
 
-.dropdown a{
+.dropdown a {
     display: block; /* hyperlinks bliver til en block */
     color: white; /* hvid farve */
     text-decoration: none; /* fjerner understreg fra <a> */
@@ -39,5 +39,5 @@ background-color: hsl(360 0% 95%)
 
 .dropdown-indhold a:hover {
     background-color: beige; /* ændrer baggrundsfarve når man hover */
-    color:black !important; /* ændrer farven på teksten når man hover */
+    color: black !important; /* ændrer farven på teksten når man hover */
 }
