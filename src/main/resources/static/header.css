@@ -3,6 +3,10 @@
     height:250px;
 }
 
+header {
+background-color: hsl(360 0% 95%)
+}
+
 .header-flexbox {
     display: flex;
     justify-content: space-between; /* horizontalt */
@@ -15,15 +19,25 @@
 
 .dropdown a{
     display: block; /* hyperlinks bliver til en block */
-    color: black; /* sort farve */
+    color: white; /* hvid farve */
     text-decoration: none; /* fjerner understreg fra <a> */
+    padding: 10px 20px; /* giver hyperlinkse kasser */
 }
 
 .dropdown .dropdown-indhold {
     display: none; /* indholdet vises ikke */
     position: absolute; /* så knapperne sidder fast */
+    min-width: 100px; /* giver hyperlinks en minimum width */
+    border-color: green; /* border-color */
+    border: 2px solid transparent; /* border størrelse */
 }
 
 .dropdown:hover .dropdown-indhold {
     display: block; /* indholdet bliver vist når man hover */
+    background-color: #44831E; /* standard baggrundsfarve */
+}
+
+.dropdown-indhold a:hover {
+    background-color: beige; /* ændrer baggrundsfarve når man hover */
+    color:black !important; /* ændrer farven på teksten når man hover */
 }
