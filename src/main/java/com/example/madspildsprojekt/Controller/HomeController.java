@@ -11,4 +11,9 @@ public class HomeController {
     public String index(Model model) {
         return "home/index";
     }
+    @GetMapping("/events")
+    public String event(Model model)
+    {
+        return "home/events";
+    }
 }

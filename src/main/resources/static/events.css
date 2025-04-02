@@ -1,0 +1,38 @@
+.events-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Sørger for at knap er til venstre og h1 i midten */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tidligere-events {
+    flex-shrink: 0; /* Sikrer, at knappen ikke ændrer størrelse */
+}
+
+h1 {
+    flex-grow: 1; /* Gør, at h1 fylder den resterende plads og bliver centreret */
+    text-align: center;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.event {
+    width: 30%;
+    text-align: center;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.empty-space {
+    width: 240px; /* Matcher størrelsen af knappen for at balancere layoutet */
+}

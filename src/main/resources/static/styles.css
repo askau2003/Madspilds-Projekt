@@ -8,7 +8,7 @@ button {
     border: 2px solid transparent;
     border-radius: 5px;
 
-    color: #ffffff;
+    color: white;
     background-color: #44831E; /* Grøn farve */
     border-color: green;
     text-decoration: none;
@@ -16,11 +16,16 @@ button {
 
 /* Hover-effekt */
 button:hover {
-    background-color: beige; /* Mørkere grøn ved hover */
+    background-color: beige; /* Beige ved hover */
     border-color: green;
     box-shadow: inset 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 button a:hover {
     color: black !important; /* ændrer farven på teksten når man hover */
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
