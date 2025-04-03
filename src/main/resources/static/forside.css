@@ -1,0 +1,60 @@
+/*trail and error */
+.forside
+{
+    font-family: "Montserrat", sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.husholdnings-spild
+{
+    font-family: "Montserrat", sans-serif;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.forside-overskrift
+{
+    font-family: "Montserrat", sans-serif;
+    width: 25%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: crimson;
+}
+
+.sektor-spild
+{
+    font-family: "Montserrat", sans-serif;
+    float: right;
+    width: 25%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.container-madspild
+
+{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("https://stopspildafmad.org/images/stats.jpg");
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    display: block;
+    color: beige;
+    text-shadow: 0px 0px 15px black;
+}
