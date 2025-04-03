@@ -23,5 +23,17 @@ public class HomeController {
     }
 
     @GetMapping("/samarbejdspartnere")
-    public String samarbejdspartnere(Model model) {return "home/samarbejdspartnere";}
+    public String samarbejdspartnere(Model model) {
+        return "home/samarbejdspartnere";
+    }
+
+    @GetMapping("/madspild-org")
+    public String madspildorg() {
+        return "home/madspild-org";
+    }
+
+    @GetMapping("/madspild-vir")
+    public String madspildvir() {
+        return "home/madspild-vir";
+    }
 }
