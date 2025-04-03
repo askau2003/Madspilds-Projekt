@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: hsl(360 0% 95%); /* baggrundsfarve på header */
-    padding: 15px; /* tilføjer padding rundt om header */
+    padding: 20px; /* tilføjer padding rundt om header */
 }
 
 .header-flexbox {
