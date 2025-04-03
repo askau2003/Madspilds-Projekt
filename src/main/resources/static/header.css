@@ -3,12 +3,12 @@ body {
 }
 
 .logo {
-    width: 225px;
-    height: 250px;
+    width: 225px; /* størrelse på billede */
+    height: 250px; /* størrelse på billede */
 }
 
 header {
-    background-color: hsl(360 0% 95%);
+    background-color: hsl(360 0% 95%); /* baggrundsfarve på header */
     padding: 15px; /* tilføjer padding rundt om header */
 }
 

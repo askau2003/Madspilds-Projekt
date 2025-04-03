@@ -16,4 +16,9 @@ public class HomeController {
     {
         return "home/events";
     }
+
+    @GetMapping("/madspild-for")
+    public String madspildfor(Model model) {
+        return "home/madspild-for";
+    }
 }
