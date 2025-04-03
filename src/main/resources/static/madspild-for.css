@@ -1,0 +1,45 @@
+p {
+    line-height: 1.5; /* linjeafstand */
+    font-family: "Open Sans", sans-serif ; /* font */
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat", sans-serif; /* font på overskrifter */
+}
+
+.top-flexbox {
+    display: flex; /* flexbox billede og overskrift */
+    justify-content: center; /* centrere dem */
+}
+.myndighedsbillede {
+    width: 250px; /* bredde på fødevarestyrelsen billed */
+    margin: 20px; /* usynlig kant rundt om */
+}
+
+.overskrift {
+    text-align: center; /* centrer overskrift */
+    flex-grow: 1; /* overskrift fylder resten af boksen */
+
+}
+
+.tom-boks {
+    width: 250px; /* for at balancere overskrift til at være centreret */
+}
+
+
+.madspild-flexbox {
+    display: flex; /* flexbox sekundære overskrifter */
+    justify-content: space-evenly; /* skal have lige meget plads */
+}
+
+
+.kolonne {
+    flex: 1; /* kolonnerne har lige meget plads */
+    padding: 10px; /* usynlig kant rundt om */
+    text-align: center; /* centrer tekster */
+}
+
+.madspildbilleder {
+    width: 550px; /* ændrer bredden på billederne */
+    margin: 10px; /* giver billederne en usynlig kant */
+}
