@@ -21,4 +21,7 @@ public class HomeController {
     public String madspildfor(Model model) {
         return "home/madspild-for";
     }
+
+    @GetMapping("/samarbejdspartnere")
+    public String samarbejdspartnere(Model model) {return "home/samarbejdspartnere";}
 }
