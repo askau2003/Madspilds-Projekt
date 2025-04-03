@@ -1,0 +1,29 @@
+p {
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat", sans-serif;
+    flex-grow: 1; /* Gør, at h1 fylder den resterende plads og bliver centreret */
+    text-align: center;
+}
+
+.nv_event_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Hvis du vil have teksten centreret vertikalt og horisontalt */
+}
+
+.nv_even-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Sørger for at knap er til venstre og h1 i midten */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.empty-space {
+    width: 165px; /* Matcher størrelsen af knappen for at balancere layoutet */
+}

@@ -12,9 +12,31 @@ public class HomeController {
         return "home/index";
     }
     @GetMapping("/events")
-    public String event(Model model)
+    public String events(Model model)
     {
         return "home/events";
+    }
+
+    @GetMapping("/nv_event1")
+    public String nv_event1(Model model)
+    {
+        return "home/nv_event1";
+    }
+    @GetMapping("/nv_event2")
+    public String nv_event2(Model model)
+    {
+        return "home/nv_event2";
+    }
+    @GetMapping("/nv_event3")
+    public String nv_event3(Model model)
+    {
+        return "home/nv_event3";
+    }
+
+    @GetMapping("/tl_event")
+    public String tl_event(Model model)
+    {
+        return "home/tl_event";
     }
 
     @GetMapping("/madspild-for")
