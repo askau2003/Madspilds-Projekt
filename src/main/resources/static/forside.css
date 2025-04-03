@@ -1,6 +1,7 @@
 /*trail and error */
 .forside
 {
+    font-family: "Montserrat", sans-serif;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -10,6 +11,7 @@
 
 .husholdnings-spild
 {
+    font-family: "Montserrat", sans-serif;
     float: left;
     width: 25%;
     box-sizing: border-box;
@@ -20,6 +22,7 @@
 
 .forside-overskrift
 {
+    font-family: "Montserrat", sans-serif;
     width: 25%;
     box-sizing: border-box;
     padding-top: 30px;
@@ -29,6 +32,7 @@
 
 .sektor-spild
 {
+    font-family: "Montserrat", sans-serif;
     float: right;
     width: 25%;
     box-sizing: border-box;
@@ -40,6 +44,7 @@
 .container-madspild
 
 {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-weight: bold;
     background-image: url("https://stopspildafmad.org/images/stats.jpg");
