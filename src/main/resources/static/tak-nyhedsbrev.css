@@ -7,3 +7,20 @@ h1, h2, h3, h4, h5 {
     font-family: "Montserrat", sans-serif; /* font på overskrifter */
     text-align: center;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 76%;
+}
+
+#container {
+    min-height: 76%;
+}
+
+#main {
+    overflow: auto;
+}
