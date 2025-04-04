@@ -18,7 +18,8 @@ p {
     overflow-wrap: break-word; /* Sikrer, at lange ord ikke skubber teksten ud af boksen */
     word-break: break-word; /* Bryder lange ord, hvis nødvendigt */
     max-width: 100%; /* Sikrer, at teksten ikke går uden for event-containeren */
-    margin: 0 auto; /* Holder teksten centreret */
+    margin: 20px; /* Holder teksten centreret */
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5 {

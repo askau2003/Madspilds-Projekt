@@ -1,6 +1,7 @@
 p {
     line-height: 1.5;
     font-family: "Open Sans", sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,7 +17,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column; /* Hvis du vil have teksten centreret vertikalt og horisontalt */
 }
 
-.nv_even-wrapper {
+.nv_even_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Sørger for at knap er til venstre og h1 i midten */
@@ -27,3 +28,4 @@ h1, h2, h3, h4, h5 {
 .empty-space {
     width: 165px; /* Matcher størrelsen af knappen for at balancere layoutet */
 }
+
