@@ -66,4 +66,9 @@ public class HomeController {
     public String timeldnyhedsbrev() {
         return "home/tilmeld-nyhedsbrev";
     }
+
+    @GetMapping("/tak-nyhedsbrev")
+    public String taknyhedsbrev() {
+        return "home/tak-nyhedsbrev";
+    }
 }
