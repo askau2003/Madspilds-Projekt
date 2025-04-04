@@ -45,7 +45,7 @@ public class HomeController {
     }
 
     @GetMapping("/samarbejdspartnere")
-    public String samarbejdspartnere(Model model) {
+    public String samarbejdspartnere() {
         return "home/samarbejdspartnere";
     }
 
@@ -58,4 +58,7 @@ public class HomeController {
     public String madspildvir() {
         return "home/madspild-vir";
     }
+
+    @GetMapping("/blivpartner")
+    public String blivpartner() {return  "home/blivpartner";}
 }
