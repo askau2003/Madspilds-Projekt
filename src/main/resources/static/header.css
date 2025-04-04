@@ -46,3 +46,7 @@ header {
     background-color: beige; /* ændrer baggrundsfarve når man hover */
     color: black !important; /* ændrer farven på teksten når man hover */
 }
+
+.tomt {
+    width: 100px;
+}

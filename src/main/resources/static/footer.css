@@ -1,0 +1,32 @@
+.footer-overskrift {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kolonne {
+    flex: 1; /* kolonnerne har lige meget plads */
+    padding: 10px; /* usynlig kant rundt om */
+    text-align: center; /* centrer tekster */
+}
+
+.mobilepay {
+    width: 15%;
+}
+
+footer {
+    background-color: lightblue;
+
+    p {
+        line-height: 1.5;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5 {
+        font-family: "Montserrat", sans-serif;
+    }
+}
