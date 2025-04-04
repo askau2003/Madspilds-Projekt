@@ -71,4 +71,7 @@ public class HomeController {
     public String taknyhedsbrev() {
         return "home/tak-nyhedsbrev";
     }
+
+    @GetMapping("tak-partner")
+    public String takpartner() {return  "home/tak-partner";}
 }
