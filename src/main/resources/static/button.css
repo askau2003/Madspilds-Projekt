@@ -19,6 +19,7 @@ button:hover {
     background-color: beige; /* Beige ved hover */
     border-color: green;
     box-shadow: inset 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+    color: black !important;
 }
 
 button a:hover {
@@ -29,3 +30,4 @@ button a {
     text-decoration: none;
     color: white;
 }
+

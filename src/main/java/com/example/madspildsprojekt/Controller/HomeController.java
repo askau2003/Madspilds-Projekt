@@ -61,4 +61,9 @@ public class HomeController {
 
     @GetMapping("/blivpartner")
     public String blivpartner() {return  "home/blivpartner";}
+
+    @GetMapping("/tilmeld-nyhedsbrev")
+    public String timeldnyhedsbrev() {
+        return "home/tilmeld-nyhedsbrev";
+    }
 }

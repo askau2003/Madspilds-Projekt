@@ -3,8 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>Tilmeld nyhedsbrev</title>
+  <link rel="stylesheet" href="/button.css">
+  <link rel="stylesheet" href="/footer.css">
+  <link rel="stylesheet" href="/header.css">
+  <link rel="stylesheet" href="/tilmeld-nyhedsbrev.css">
 </head>
+<header>
+  <div class="header-flexbox">
+    <a href="/">
+      <img class="logo" src="/images/logo.png" alt="Logo">
+    </a>
+    <div class="dropdown">
+      <button><a href="madspild-for">Sådan undgår du madspild</a></button>
+      <div class="dropdown-indhold">
+        <a href="madspild-org">Sådan undgår du madspild (Som organisation)</a>
+        <a href="madspild-vir">Sådan undgår du madspild (Som virksomhed)</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button><a href="events">Events</a></button>
+    </div>
+
+    <div class="dropdown">
+      <button><a href="samarbejdspartnere">Vores samarbejdspartnere</a></button>
+    </div>
+    <div class="tomt">
+    </div>
+  </div>
+
+</header>
 <body>
 
+<div class="form">
+
+  <br>
+
+<form action="/tak-nyhedsbrev">
+  <label for="email">Email:</label>
+
+  <br>
+
+  <input type="text" id="email" name="email">
+
+  <br>
+  <br>
+
+    <button type="submit">Tilmeld</button>
+</form>
+
+  <br>
+
+</div>
+
 </body>
+<footer>
+  <div class="footer-overskrift">
+    <div class="kolonne venstre">
+      <h2>Om os</h2>
+    </div>
+    <div class="kolonne midten">
+      <h2>Donationer</h2>
+    </div>
+    <div class="kolonne højre">
+      <h2> Kontakt os</h2>
+    </div>
+  </div>
+
+  <div class="footer-flexbox">
+    <div class="kolonne venstre">
+      <p>Danmark mod Madspild er en non-profit organisation, der arbejder for at reducere madspild gennem
+        oplysning,
+        samarbejde og konkrete løsninger i hele fødevarekæden.</p>
+    </div>
+
+    <div class="kolonne midten">
+      <img class="mobilepay" src="/images/mobilepay.png" alt="Mobilepay">
+      <p>Reg. nr. 9578
+        <br>
+        Kontonr. 9578548726
+      </p>
+    </div>
+
+    <div class="kolonne højre">
+      <p>Danmark mod Madspild
+        <br>
+        Guldbergsgade 29N
+        <br>
+        2200 KBH N
+        <br>
+        CVR nr.: 45 78 25 41</p>
+    </div>
+  </div>
+</footer>
 </html>
