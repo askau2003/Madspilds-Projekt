@@ -1,9 +1,9 @@
-.footer-overskrift {
+.footer-overskrift { /* overskrifter i footeren */
     display: flex;
     justify-content: space-evenly;
 }
 
-.footer-flexbox {
+.footer-flexbox { /* tekst etc. i footeren */
     display: flex;
     justify-content: space-evenly;
 }
@@ -15,12 +15,13 @@
 }
 
 .mobilepay {
-    width: 15%;
+    width: 15%; /* størrelse på billedet */
 }
 
 footer {
-    background-color: lightblue;
+    background-color: lightblue; /* baggrundsfarve på footer */
 
+    /* tekster i footeren bliver til dette */
     p {
         line-height: 1.5;
         font-family: "Open Sans", sans-serif;
